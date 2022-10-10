@@ -14,8 +14,6 @@ const ViewProduct = () => {
     const [isPhone, setIsPhone] = useState(window.innerWidth > 600);
     const [active, setActive] = useState("FirstCard");
 
-
-
     return (
         <div className="view-product">
             <div className="view-product-topLeft">
@@ -120,7 +118,9 @@ const ViewProduct = () => {
                                     }
 
                                     <div className="detail-priceBlock">
-                                        <div className="price">500da</div>
+                                        <div className="price">
+                                            Prix : 50$
+                                        </div>
                                         <div className="qnt">10+ in stock</div>
                                     </div>
                                     <div className="detail-actions">
